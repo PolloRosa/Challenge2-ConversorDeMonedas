@@ -24,11 +24,11 @@ Conversor de Monedas es una aplicación de Escritorio para realizar conversión 
 
 El día 07 de febrero del 2026 se lanzó la versión 1 del proyecto empleando el mismo diseño del menú mostrado en el video instructivo.
 
-El proyecto se encuentra en su [versión 1.0](#registro-de-cambios).
+El proyecto se encuentra en su [versión 1.1](#registro-de-cambios).
 
 ## Demostración de funcionalidad
 
-El aplicativo imprime el menú de opciones de monedas origen y destino, para que el usuario ingrese el número de opción que se valida hasta registrar un número de opción válido, del mismo modo, el sistema solicita el ingreso de un valor que se valida porque debe ser un monto igual o mayor a cero. El sistema arrojará un mensaje indicando el monto y moneda origen, y el monto y moneda destino.
+El aplicativo imprime el menú de opciones de monedas origen y destino, para que el usuario ingrese el número de opción que se valida hasta registrar un número de opción válido, del mismo modo, el sistema solicita el ingreso de un valor que se valida porque debe ser un monto igual o mayor a cero. El sistema arrojará un mensaje indicando el monto y moneda origen, y el monto y moneda destino. El aplicativo vuelve a solicitar el ingreso de un número de opción, se repite el bucle hasta que el usuario elige la opción de "Salir".
 
 ![Gif demo de Amigo Secreto](demo_readme.gif)
 
