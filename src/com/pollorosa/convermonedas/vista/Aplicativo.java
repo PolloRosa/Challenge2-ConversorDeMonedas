@@ -81,7 +81,7 @@ public class Aplicativo {
 
     public void iniciar() {
         while(true) {
-            imprimirMenu();
+            this.imprimirMenu();
             // se solicita al usuario la opción del menú, con validación
             int respuesta = this.solicitarOpcion();
             // si elige opción Salir, se corta el bucle
@@ -89,7 +89,7 @@ public class Aplicativo {
             // se solicita al usuario el valor, con validación
             double valor = this.solicitarValor();
             // obtener los códigos de moneda para la conversión
-            String base, target;
+            String base = "", target = "";
             for(Opcion op: this.menu) {
                 if(op.getNumero() == respuesta) {
                     base = op.getBase().getCodigoISO();
@@ -98,13 +98,24 @@ public class Aplicativo {
                 }
             }
             // llamado al API para la conversión
-
+            this.convertir(base, target, valor);
         }
     }
 
-    public void convertir() {
+    private void convertir(String base, String target, double valor) {
         Exchangerate api = new Exchangerate();
-
+        try {
+            double response = api.convertir(base, target, valor);
+            String salida = Constantes.TEXTO_RESPUESTA
+                    .replaceAll("INGRESAR_VALOR_BASE", String.format("%.2f", valor))
+                    .replaceAll("INGRESAR_MONEDA_BASE", base)
+                    .replaceAll("INGRESAR_VALOR_TARGET", String.format("%.2f", response))
+                    .replaceAll("INGRESAR_MONEDA_TARGET", target);
+            System.out.println(salida);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
+        System.out.println();
     }
 
 
