@@ -12,7 +12,7 @@ El programa [Oracle Next Education (ONE)](https://www.oracle.com/latam/education
 
 Es un programa gratuito que dura 12 meses. Abre inscripciones 2 veces al año donde las personas pueden postular mediante un formulario. Cada generación es enumerada con números arábigos.
 
-El proyecto Conversor de Monedas es el Challenge 2 del programa ONE de Oracle y Alura Latam del grupo G9 que inició en julio 2025. Es el primer reto de desarrollo de la fase 3 y segundo reto entre todas las fases (para estudiantes del programa) después del aprendizaje de los cursos de desarrollo en Java, Orientación a Objetos, consumo de APIs y manejo de Excepciones.
+El proyecto Conversor de Monedas es el Challenge 2 del programa ONE de Oracle y Alura Latam del grupo G9 que inició en julio 2025. Es el primer reto de desarrollo de la fase 3 (para estudiantes admitidos en el programa) y segundo reto entre todas las fases después del aprendizaje de los cursos de desarrollo en Java, Orientación a Objetos, consumo de APIs y manejo de Excepciones.
 
 El reto tiene como finalidad poner a prueba a los estudiantes en 2 puntos: programación Orientada a Objetos en Java y uso de Git y GitHub.
 
@@ -59,6 +59,10 @@ O descarga el proyecto haciendo click en el botón verde "Code" y haciendo click
 * Git para control de versiones
 
 ## Registro de cambios
+
+1.1 *08 febrero 2026*
+
+* :pencil2: Correcciones menores en el README.md.
 
 1.0 *08 febrero 2026*
 
