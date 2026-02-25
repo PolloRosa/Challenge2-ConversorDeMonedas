@@ -2,7 +2,7 @@
 
 ![Grupo de amigos saltando en la playa en el atardecer](portada_readme.png)
 
-![Versión: 1.0](https://img.shields.io/badge/VERSIÓN-1.3-blue) ![Fecha de lanzamiento: 07/02/2026](https://img.shields.io/badge/Fecha_de_lanzamiento-15/08/2025-blue)
+![Versión: 1.1.1](https://img.shields.io/badge/VERSIÓN-1.1.1-blue) ![Fecha de lanzamiento: 07/02/2026](https://img.shields.io/badge/Fecha_de_lanzamiento-07/02/2026-blue)
 
 ![Java](https://img.shields.io/badge/Java-b07219) 
 
@@ -24,7 +24,7 @@ Conversor de Monedas es una aplicación de Escritorio para realizar conversión 
 
 El día 07 de febrero del 2026 se lanzó la versión 1 del proyecto empleando el mismo diseño del menú mostrado en el video instructivo.
 
-El proyecto se encuentra en su [versión 1.1](#registro-de-cambios).
+El proyecto se encuentra en su [versión 1.1.1](#registro-de-cambios).
 
 ## Demostración de funcionalidad
 
@@ -60,7 +60,11 @@ O descarga el proyecto haciendo click en el botón verde "Code" y haciendo click
 
 ## Registro de cambios
 
-1.1 *08 febrero 2026*
+1.1.1 *24 febrero 2026*
+
+* :pencil2: Correcciones menores en el README.md.
+
+1.1.0 *08 febrero 2026*
 
 * :pencil2: Correcciones menores en el README.md.
 
